@@ -1,0 +1,29 @@
+baseURL = 'https://lesechko.dev/'
+theme = "hugo-bearblog"
+
+title = 'oh my polo'
+author = "polo"
+copyright = "Copyright (c) 2024, polo"
+languageCode = 'en-us'
+
+enableRobotsTXT = true
+
+[params]
+    description = "Personal website of polo"
+    
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+#     favicon = "images/favicon.png"
+
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+#     images = ["images/share.png"]
+    
+    # Another "title" :-). This one is used as the site_name on the Hugo's internal
+    # opengraph structured data template.
+    # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+    title = "oh my blog"
+    
+    dateFormat = "2006-01-02"
