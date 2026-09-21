@@ -1,7 +1,7 @@
-baseURL = 'https://lesechko.dev/'
+baseURL = 'https://flippedbits.dev/'
 theme = "hugo-bearblog"
 
-title = 'oh my polo'
+title = 'Flipped Bits'
 author = "polo"
 copyright = "Copyright (c) 2024, polo"
 languageCode = 'en-us'
@@ -9,7 +9,7 @@ languageCode = 'en-us'
 enableRobotsTXT = true
 
 [params]
-    description = "Personal website of polo"
+    description = "Posts on programming and CS"
     
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
@@ -24,6 +24,10 @@ enableRobotsTXT = true
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "oh my blog"
+    title = "Flipped Bits"
     
     dateFormat = "2006-01-02"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
