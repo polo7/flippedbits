@@ -1,0 +1,19 @@
+# Hugo default output directory
+public/
+resources/_gen/
+
+# Local cache directory used by Hugo for modules and images
+.hugo_build.lock
+hugo_cache/
+.hugo_cache/
+
+# Execution logs
+hugo_debug.txt
+
+# Local development environment overrides (if any)
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
