@@ -2,8 +2,8 @@
 title = "index test"
 +++
 
-# A match made in heaven
-Paragraph test
+# A match made in heaven. Тест.
+Paragraph test. Проверка русского языка.
 
 [Go to the original bear blog](https://bearblog.dev/).
 
