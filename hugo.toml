@@ -1,6 +1,6 @@
 baseURL = 'https://flippedbits.dev/'
-# theme = "hugo-bearblog"
-theme = "nostyleplease"
+theme = "hugo-bearblog"
+# theme = "nostyleplease"
 
 title = 'Flipped Bits'
 author = "polo"
